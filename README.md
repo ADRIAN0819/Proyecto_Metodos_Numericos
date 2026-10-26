@@ -37,7 +37,7 @@ Se resuelve la ecuación de Colebrook-White en la forma F(x) = 0, con x = 1/sqrt
 | Código 7 | Costo de resolver N tuberías, de 10^2 a 10^5 (objetivo 4) |
 | Funciones Principales | `biseccion`, `newton`, `newton_analitica`, `new_sec` |
 
-Parámetros comunes: x0 = 7.273626085, tolerancia 1e-8 e intervalo de bisección [3.68, 12.47].
+Parámetros comunes: x0 = 7.273626085, tolerancia 1e-8 e intervalo de bisección [3.6, 13.0]. El intervalo [3.68, 12.47] de Praks y Brkić (2018) no contiene la raíz en 8 de los 780 puntos de la malla, por lo que se amplió a partir de las raíces en los extremos del dominio (x = 3.606 y x = 12.975).
 
 ## Ejecución
 
